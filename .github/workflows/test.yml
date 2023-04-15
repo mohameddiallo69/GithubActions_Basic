@@ -1,4 +1,4 @@
-name : deployment excerce 1
+name : test
 on : push
 jobs :
   lint :
