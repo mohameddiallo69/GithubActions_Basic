@@ -1,18 +1,6 @@
 name : test
 on : push
 jobs :
-<<<<<<< HEAD
-=======
-  lint :
-    runs-on : ubuntu-latest
-    steps :
-      -name : get code
-       uses : actions/checkout@v3
-      -name : install dependancies
-       run : npm ci
-      -name : run code 
-       run : npm run lint
->>>>>>> f2209ba9c2aa3133ab098dd5f9b159bda86818de
   test :
     runs-on : ubuntu-latest
     steps :
