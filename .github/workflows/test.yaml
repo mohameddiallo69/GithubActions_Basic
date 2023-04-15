@@ -5,7 +5,7 @@ jobs :
     runs-on : ubuntu-latest
     steps :
       -name : get code
-       uses: actions/checkout@v3
+       uses : actions/checkout@v3
       -name : install dependancies
        run : npm ci
       -name : run code 
